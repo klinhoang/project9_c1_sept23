@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is my first working process website about me, my xperiences and journey to Software and Web Dev"
+    />
+    <meta
+      name="keywords"
+      content="resume, projects, amazon fron-end dev, amazon SDE, journey, travel, cooking"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/snowball furby.jpg" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <!--   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <title>Linh Hernandez's website</title>
+  </head>
+  <body>
+    <div class="header">
+        <h1>Linh Hernandez</h1>
+      </div>
+    <div class="topnav">
+      <div class="links">
+        <a class="active" href="index.html"> Home </a>
+        <a href="project.html"> Projects</a>
+        <a href="resume.html"> Resume</a>
+        <a href="food.html"> Food</a>
+        <a href="products/single-products.html"> Products Rec</a>
+    </div>
+    <a id="contact-nav" href="contact-me.html" class="active"
+    >Contact me</a
+  >
+</div>
+
+    <main>
+      <table>
+        <tr>
+          <td>
+            <img class="img-linh" src="https://drive.google.com/uc?id=1DCw-JNK3USlobWkfUFKkpMQVPHhnypar" alt="Linh" />
+          </td>
+          <td class="p-font-para">
+            <p>
+              Xin chào, hi! 👋 I'm Linh! I am a curious soul originally from
+              <i>Ho Chi Minh City, Vietnam</i>, on a mission to explore the
+              uncharted territories of my own life. With a degree in Media and
+              Communication Studies and a minor in Health Education and
+              Promotion from <a id="UW" href="https://www.washington.edu/" title="UW">
+              <img id="husky" src="/media/uw_husky.png" /></a> <i id="go-huskies">*Go Huskies!!!*</i>
+            </p>
+            <p>
+              I'm currently an IT DSMS I at IT-US Logistics @
+              <a id="amazon-word" href="https://www.amazon.com/" title="Amazon"
+                ><img id="amazon-logo" src="/media/amz logo.png" alt="Amazon Logo" /></a>. 
+                Also currently chasing career dreams in the computing,
+              software, and information technology industry and all the things.
+              When not at work or in school, I love spending my free time
+              snowboarding on Crystal Mountain, boating on Lake Washington, or
+              traveling and indulging in some amazing food. As an ex-fat kid,
+              I'm a foodie at heart and love exploring new restaurants. I don't
+              mind trying new food but if I don't like it, I'll never eat it
+              again. But definitely would be down to try it first. If you share
+              a love for sushi and boba, we should definitely be friends!
+              &#9825;
+            </p>
+            <p>
+              Currently, I am enrolled in the
+              <a
+                id="c1"
+                href="https://www.correlation-one.com/amazon-software-development"
+                >Amazon Web & Software Development Training program</a
+              >
+              with Correlation One 💻📚🤓. In this comprehensive program, I have
+              delved into various aspects of web development, starting with the
+              fundamentals of HTML. I've gained proficiency in writing clean and
+              structured code, creating image maps to enhance user experience,
+              utilizing tables to organize data effectively, and designing
+              interactive forms for user input.
+            </p>
+            <p>
+              As I continue on this exciting learning journey 📈, I am eager to
+              explore more advanced topics in web development. Up next, I will
+              learn more and <i>*hopefully be ready*</i> to delve deeper into
+              Cascading Style Sheets (CSS) to enhance the visual appeal of my
+              web pages and ensure they are responsive on different devices.
+              Additionally, I am looking forward to learning JavaScript to add
+              interactivity and dynamic elements to my projects. I am excited to
+              apply the knowledge I've gained and continue crafting meaningful
+              and engaging web applications in the near future. Moreover, I am
+              particularly looking forward to witnessing the development and
+              evolution of this personal web page throughout the course.✨🤘
+            </p>
+          </td>
+        </tr>
+      </table>
+      <br><br>
+      <h3 id="h3-places">Some places I have been to:</h3>
+      <div class="container">
+        <!-- main images -->
+        <div class="holder">
+          <div class="slides">
+            <img src="/media/Bhutan.JPG" alt="Bhutan" />
+          </div>
+      
+          <div class="slides">
+            <img src="/media/Philly.PNG" alt="Philly" />
+          </div>
+      
+          <div class="slides">
+            <img src="/media/NOLA.PNG" alt="New Orlean" />
+          </div>
+            
+          <div class="slides" >
+            <img src="/media/JP.PNG" alt="Japan" />
+          </div>
+      
+          <div class="slides">
+            <img src="/media/Singapore.JPG" alt="Singapore" />
+          </div>
+            
+          <div class="slides">
+            <img src="/media/DC.PNG" alt="Washington D.C." />
+          </div>
+        </div>
+        
+      
+        <div class="prevContainer"><a class="prev" onclick="plusSlides(-1)">
+          <svg viewBox="0 0 24 24">
+          <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+      </svg>
+          </a></div>
+        <div class="nextContainer"><a class="next" onclick="plusSlides(1)">
+          <svg viewBox="0 0 24 24">
+        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+      </svg>
+          </a></div>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- thumnails in a row -->
+        <div class="row">
+          <div class="column">
+            <img class="slide-thumbnail" src="/media/Bhutan.JPG" onclick="currentSlide(1)" alt="Bhutan">
+          </div>
+          <div class="column">
+            <img class="slide-thumbnail" src="/media/Philly.PNG" onclick="currentSlide(2)" alt="Philly">
+          </div>
+          <div class="column">
+            <img class="slide-thumbnail" src="/media/NOLA.PNG" onclick="currentSlide(3)" alt="New Orlean">
+          </div>
+          <div class="column">
+            <img class="slide-thumbnail" src="/media/JP.PNG" onclick="currentSlide(4)" alt="Japan">
+          </div>
+          <div class="column">
+            <img class="slide-thumbnail" src="/media/Singapore.JPG" onclick="currentSlide(5)" alt="Singapore">
+          </div>    
+          <div class="column">
+            <img class="slide-thumbnail" src="/media/DC.PNG" onclick="currentSlide(6)" alt="Washington D.C.">
+          </div>
+        </div>
+      </div>     
+    </main>
+    <footer>
+      <div class="social">
+        <h3 id="h3-footer">SOCIAL</h3>
+        <ul class="social1">
+          <li>
+            📷 <a href="https://www.instagram.com/maiyadendron/">Instagram</a>
+          </li>
+          <li>
+            📌<a href="https://www.pinterest.com/klinhoang/">Pinterest</a>
+          </li>
+          <li>
+            🎵<a
+              href="https://open.spotify.com/user/12120425496?si=dbc8dd74005642ca"
+              >Spotify</a
+            >
+          </li>
+          <li>
+            💼<a href="https://www.linkedin.com/in/mindymnguyen/">LinkedIn</a>
+          </li>
+          <p>Made with ❤️ and beginner coding experience</p>
+        </ul>
+      </div>
+
+      
+
+
+
+    </footer>
+    <!-- <script src="./javascript/console.js"></script>   -->
+    <script src="/javascript/main.js"></script>
+  </body>
+</html>

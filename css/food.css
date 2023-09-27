@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.cdnfonts.com/css/cammron");
+/* Navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #9ed5c5;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(176, 229, 208, 1) 42%,
+      rgba(92, 202, 238, 0.41) 93.6%
+    );
+  } 
+.topnav .links {
+  width: 75%;
+  margin: auto;
+  padding: 0 30px;
+}
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #5d3891;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a.active {
+  background-color: #cdf0ea;
+  color: #402a6c;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* NAV END */
+
+
+#frog-cry-gif {
+    max-width: 5em;
+}
+
+.sqs-block-markdown .sqs-block-content *:last-child {
+    margin-bottom: 0;
+}
+
+h1,h2,h3 {
+    text-rendering: optimizeLegibility
+}
+
+h1:first-child,h2:first-child,h3:first-child {
+    margin-top: 0
+}
+
+h1:last-child,h2:last-child,h3:last-child {
+    margin-bottom: 0
+}
+
+h2 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    font-family: Rubik;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 64px;
+    letter-spacing: -.02em;
+    line-height: 1.4em;
+    text-transform: none
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size:32px;
+        letter-spacing: -.01px
+    }
+}
+
+
+h2 {
+    color: #1d1d1d
+}
+
+h2 a {
+    padding-bottom: .05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(29,29,29,.3);
+    -webkit-transition: border-color .15s ease-out,color .15s ease-out;
+    -moz-transition: border-color .15s ease-out,color .15s ease-out;
+    -ms-transition: border-color .15s ease-out,color .15s ease-out;
+    -o-transition: border-color .15s ease-out,color .15s ease-out;
+    transition: border-color .15s ease-out,color .15s ease-out
+}
+
+h2 a:hover {
+    color: rgba(29,29,29,.6);
+    border-color: rgba(29,29,29,.15)
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
