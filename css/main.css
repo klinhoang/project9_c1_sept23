@@ -85,7 +85,7 @@
 
 #amazon-logo{
     height: 50px;
-    align: center; 
+    box-align: center; 
     width: auto;
     padding: 0;
     margin: 0px;
