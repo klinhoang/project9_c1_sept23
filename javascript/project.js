@@ -1,16 +1,18 @@
+function showText(toggleText) {
+  toggleText.classList.toggle("active");
+}
 const items = document.querySelectorAll('.item:not(:first-child)');
 const options = {
-  threshold: 0.5
+threshold: 0.5
 }
 function addSlideIn(entries) {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('slide-in');
-    }
-  });
+entries.forEach(entry => {
+  if (entry.isIntersecting) {
+    entry.target.classList.add('slide-in');
+  }
+});
 }
-
 const observer = new IntersectionObserver(addSlideIn, options)
 items.forEach(item => {
-  observer.observe(item);
+observer.observe(item);
 })
